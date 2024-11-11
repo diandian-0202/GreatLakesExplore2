@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/bark_A.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/bark_A_Inst.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/bark_B.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/bark_B_Inst.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/cap.uasset",
+				"D:/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/tree_materials/bark/cap_Inst.uasset"
+			]
+		}
+	]
+}
