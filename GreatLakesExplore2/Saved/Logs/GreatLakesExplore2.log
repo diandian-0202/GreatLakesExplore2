@@ -1916,3 +1916,470 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.12-19.24.08:082][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2024.11.12-19.24.08:097][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
 [2024.11.12-19.24.08:111][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.11.12-19.26.15:070][747]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\yhgeng\Downloads\sammy/source/sammylowpoly.fbx)
+[2024.11.12-19.26.15:078][747]LogFbx: Loading FBX Scene from C:\Users\yhgeng\Downloads\sammy/source/sammylowpoly.fbx
+[2024.11.12-19.26.15:090][747]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.12-19.26.16:417][747]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.001) - Node Sphere.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.001) - Node Plane.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.001) - Node Plane.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.001) - Node Sphere.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.001) - Node Sphere.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.001) - Node Plane.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.001) - Node Plane.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.001) - Node Sphere.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.003) - Node Sphere.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.003) - Node Plane.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.003) - Node Plane.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Plane.003) - Node Sphere.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.002) - Node Sphere.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.002) - Node Plane.001 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.002) - Node Plane.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Not valid bind pose for Pose (Sphere.002) - Node Sphere.002 : The relative matrices do not match
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2024.11.12-19.26.18:196][747]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Sphere.001
+[2024.11.12-19.26.18:196][747]LogFbx: Warning: Recreating bind pose succeeded.
+[2024.11.12-19.26.18:198][747]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.11.12-19.26.18:198][747]FBXImport: Error: Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2024.11.12-19.26.18:198][747]FBXImport: Warning: Get Import Data has failed. 
+[2024.11.12-19.26.18:198][747]FBXImport: Error: Import failed. 
+[2024.11.12-19.26.21:020][747]LogSlate: Window 'Message' being destroyed
+[2024.11.12-19.26.21:026][747]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\yhgeng\Downloads\sammy/source/sammylowpoly.fbx'. Failed to create asset '/Game/sammy/source/sammylowpoly'.
+Please see Output Log for details.
+[2024.11.12-19.26.21:026][747]LogAssetTools: Warning: Failed to import 'C:\Users\yhgeng\Downloads\sammy/source/sammylowpoly.fbx'. Failed to create asset '/Game/sammy/source/sammylowpoly'.
+Please see Output Log for details.
+[2024.11.12-19.26.21:056][747]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.26.21:056][747]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng.../sammy/texturesAdobeColor-color_theme_salmon_sockeye.jpeg]
+[2024.11.12-19.26.21:061][747]LogInterchangeImport: JPEG file [C:/Users/yhgeng/Downloads/sammy/textures/AdobeColor-color_theme_salmon_sockeye.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.11.12-19.26.21:134][748]LogTexture: Display: Building textures: /Game/sammy/textures/AdobeColor-color_theme_salmon_sockeye.AdobeColor-color_theme_salmon_sockeye (TFO_AutoDXT, 2480x1040 x1x1x1) (Required Memory Estimate: 212.819652 MB), EncodeSpeed: Fast
+[2024.11.12-19.26.21:166][748]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.26.21:168][748]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.26.24:533][100]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.26.24:537][100]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.26.30:938][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.12-19.26.32:161][840]LogSlate: Window 'Delete Assets' being destroyed
+[2024.11.12-19.26.32:188][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.12-19.26.32:203][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.11.12-19.26.32:218][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.11.12-19.30.21:348][666]LogSkeletalMesh: Building Skeletal Mesh Flopping...
+[2024.11.12-19.30.21:372][666]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/floppingfish/source/Flopping.Flopping
+[2024.11.12-19.30.21:489][666]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.30.21:509][666]LogTexture: Display: Building textures: /Game/floppingfish/source/M_Salmon__albedo.M_Salmon__albedo (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.30.21:511][666]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/floppingfish/source/Flopping.Flopping
+[2024.11.12-19.30.21:511][666]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/floppingfish/source/Flopping.Flopping
+[2024.11.12-19.30.21:511][666]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/floppingfish/source/Flopping.Flopping as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_0
+[2024.11.12-19.30.21:512][666]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/floppingfish/source/Flopping.Flopping as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_0
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: ================================================
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Total job queries 2,664, among them cache hits 14 (0.53%)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Tracking 2,649 distinct input hashes that result in 1,714 distinct outputs (64.70%)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: RAM used: 41.14 MiB of 3.20 GiB budget. Usage: 1.26%
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Shaders Compiled: 2,649
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Jobs assigned 2,650, completed 2,649 (99.96%)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Average time worker was idle: 9.30 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Time job spent in pending queue: average 48.21 s, longest 99.57 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Job execution time: average 3.73 s, max 12.08 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Job life time (pending + execution): average 51.95 s, max 102.71
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 122.36 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Jobs were issued in 359 batches (only local compilation was used), average 7.38 jobs/batch
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Average processing rate: 21.65 jobs/sec
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Total thread time: 1,007.176 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Total thread preprocess time: 43.453 s
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Percentage time preprocessing: 4.31%
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Effective parallelization: 8.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 2.48 sec, max 4.54 sec, min 0.77 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    8 times, average 2.30 sec, max 2.83 sec, min 1.87 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   21 times, average 1.41 sec, max 1.88 sec, min 1.29 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   21 times, average 1.38 sec, max 1.80 sec, min 1.21 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled   10 times, average 1.32 sec, max 1.96 sec, min 0.55 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.74% of total time (compiled  150 times, average 0.72 sec, max 0.93 sec, min 0.59 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.58% of total time (compiled   51 times, average 1.10 sec, max 1.84 sec, min 0.25 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.47% of total time (compiled   96 times, average 0.57 sec, max 0.85 sec, min 0.37 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.91% of total time (compiled  128 times, average 0.39 sec, max 0.66 sec, min 0.27 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.09% of total time (compiled   34 times, average 1.21 sec, max 1.82 sec, min 0.50 sec)
+[2024.11.12-19.30.22:305][758]LogShaderCompilers: Display: ================================================
+[2024.11.12-19.30.23:022][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.30.23:028][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.30.23:097][850]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/floppingfish/source/Flopping.Flopping
+[2024.11.12-19.30.23:097][850]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/floppingfish/source/Flopping.Flopping
+[2024.11.12-19.30.23:099][850]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/floppingfish/source/Flopping.Flopping as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_1
+[2024.11.12-19.30.23:100][850]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/floppingfish/source/Flopping.Flopping as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_1
+[2024.11.12-19.30.30:053][654]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2024.11.12-19.31.25:350][905]Cmd: EDIT COPY
+[2024.11.12-19.31.25:690][945]Cmd: EDIT PASTE
+[2024.11.12-19.31.29:205][357]Cmd: EDIT PASTE
+[2024.11.12-19.32.20:793][313]Cmd: EDIT COPY
+[2024.11.12-19.32.21:414][387]Cmd: EDIT PASTE
+[2024.11.12-19.32.59:935][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.12-19.33.11:827][172]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1
+[2024.11.12-19.33.11:877][172]LogSavePackage: Moving 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMap_Auto131F156C742A205E4966D848F838D02C0.tmp' to 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap'
+[2024.11.12-19.33.11:978][172]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 12.060
+[2024.11.12-19.33.11:978][172]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 12.060
+[2024.11.12-19.33.12:003][172]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/sammy/source/sammylowpoly_Auto1
+[2024.11.12-19.33.12:003][172]LogSavePackage: Moving 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/sammylowpoly_Auto1AD8303A745B92609A0C1C0A5946202FC.tmp' to 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/Autosaves/Game/sammy/source/sammylowpoly_Auto1.uasset'
+[2024.11.12-19.33.12:033][172]LogFileHelpers: Auto-saving content packages took 0.055
+[2024.11.12-19.34.56:685][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\yhgeng\Downloads\rainbow-trout/source/Rainbow Trout v2 01 baked.fbx)
+[2024.11.12-19.34.56:695][378]LogFbx: Loading FBX Scene from C:\Users\yhgeng\Downloads\rainbow-trout/source/Rainbow Trout v2 01 baked.fbx
+[2024.11.12-19.34.56:709][378]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.12-19.34.57:941][378]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.12-19.34.58:091][378]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2024.11.12-19.34.58:091][378]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cylinder001
+[2024.11.12-19.34.58:091][378]LogFbx: Warning: Recreating bind pose succeeded.
+[2024.11.12-19.34.58:098][378]LogMaterial: Display: Material /Game/Trouts/rainbow-trout/source/Fins.Fins needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.34.58:161][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:162][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:236][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture.new_rainbow_trout_texture (TFO_AutoDXT, 4000x1936 x1x1x1) (Required Memory Estimate: 531.800765 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:242][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:243][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:306][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:308][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:317][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_bump.new_rainbow_trout_texture_bump (TFO_BC5, 4000x1936 x1x1x1) (Required Memory Estimate: 616.136706 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:333][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_alpha.new_rainbow_trout_texture_alpha (TFO_AutoDXT, 2000x968 x1x1x1) (Required Memory Estimate: 185.012034 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:337][378]LogMaterial: Display: Material /Game/Trouts/rainbow-trout/source/Mouth.Mouth needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.34.58:442][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:444][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:467][378]LogMaterial: Display: Material /Game/Trouts/rainbow-trout/source/Eyes.Eyes needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.34.58:501][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_ncl1_1.new_rainbow_trout_texture_ncl1_1 (TFO_AutoDXT, 4000x1936 x1x1x1) (Required Memory Estimate: 531.800765 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:559][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:560][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:578][378]LogMaterial: Display: Material /Game/Trouts/rainbow-trout/source/Body.Body needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.34.58:612][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_ncl1_2.new_rainbow_trout_texture_ncl1_2 (TFO_AutoDXT, 4000x1936 x1x1x1) (Required Memory Estimate: 531.800765 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:667][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:667][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:744][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_ncl1_3.new_rainbow_trout_texture_ncl1_3 (TFO_AutoDXT, 4000x1936 x1x1x1) (Required Memory Estimate: 531.800765 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:747][378]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.11.12-19.34.58:749][378]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.34.58:767][378]LogFbx: Bones digested - 11  Depth of hierarchy - 10
+[2024.11.12-19.34.58:809][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/source/new_rainbow_trout_texture_bump_ncl1_1.new_rainbow_trout_texture_bump_ncl1_1 (TFO_BC5, 4000x1936 x1x1x1) (Required Memory Estimate: 616.136706 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.58:877][378]LogSkeletalMesh: Section 0: Material=0, 840 triangles
+[2024.11.12-19.34.58:877][378]LogSkeletalMesh: Section 1: Material=1, 982 triangles
+[2024.11.12-19.34.58:877][378]LogSkeletalMesh: Section 2: Material=2, 240 triangles
+[2024.11.12-19.34.58:877][378]LogSkeletalMesh: Section 3: Material=3, 1858 triangles
+[2024.11.12-19.34.58:897][378]LogSkeletalMesh: Building Skeletal Mesh Rainbow_Trout_v2_01_baked...
+[2024.11.12-19.34.58:929][378]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Rainbow_Trout_v2_01_baked) ...
+[2024.11.12-19.34.58:956][378]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked
+[2024.11.12-19.34.59:062][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.34.59:062][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.12-19.34.59:107][378]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.12-19.34.59:107][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.12-19.34.59:124][378]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'new_rainbow_trout_texture' was renamed 'new_rainbow_trout_texture_ncl1_1' 
+[2024.11.12-19.34.59:124][378]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'new_rainbow_trout_texture' was renamed 'new_rainbow_trout_texture_ncl1_2' 
+[2024.11.12-19.34.59:124][378]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'new_rainbow_trout_texture' was renamed 'new_rainbow_trout_texture_ncl1_3' 
+[2024.11.12-19.34.59:124][378]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'new_rainbow_trout_texture_bump' was renamed 'new_rainbow_trout_texture_bump_ncl1_1' 
+[2024.11.12-19.34.59:124][378]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.11.12-19.34.59:181][378]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.34.59:182][378]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesnew rainbow trout_texture.jpeg]
+[2024.11.12-19.34.59:182][378]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.12-19.34.59:182][378]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.12-19.34.59:239][378]LogInterchangeImport: JPEG file [C:/Users/yhgeng/Downloads/rainbow-trout/textures/new rainbow trout_texture.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.11.12-19.34.59:299][378]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.34.59:299][378]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.34.59:299][378]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesnew rainbow trout_texture_alpha.jpeg]
+[2024.11.12-19.34.59:299][378]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.12-19.34.59:301][378]LogInterchangeImport: JPEG file [C:/Users/yhgeng/Downloads/rainbow-trout/textures/new rainbow trout_texture_alpha.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.11.12-19.34.59:337][378]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/textures/new_rainbow_trout_texture.new_rainbow_trout_texture (TFO_AutoDXT, 4000x1936 x1x1x1) (Required Memory Estimate: 531.800765 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.59:492][379]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/textures/new_rainbow_trout_texture_alpha.new_rainbow_trout_texture_alpha (TFO_AutoDXT, 2000x968 x1x1x1) (Required Memory Estimate: 185.012034 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.59:504][379]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.34.59:504][379]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.34.59:505][379]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesnew rainbow trout_texture_bump.jpeg]
+[2024.11.12-19.34.59:509][379]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.34.59:522][379]LogInterchangeImport: JPEG file [C:/Users/yhgeng/Downloads/rainbow-trout/textures/new rainbow trout_texture_bump.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.11.12-19.34.59:525][379]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.34.59:592][379]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.12-19.34.59:597][379]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.34.59:647][379]LogTexture: Display: Building textures: /Game/Trouts/rainbow-trout/textures/new_rainbow_trout_texture_bump.new_rainbow_trout_texture_bump (TFO_BC5, 4000x1936 x1x1x1) (Required Memory Estimate: 616.136706 MB), EncodeSpeed: Fast
+[2024.11.12-19.34.59:838][379]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.34.59:891][380]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: ================================================
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: Total job queries 2,789, among them cache hits 18 (0.65%)
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: Tracking 2,662 distinct input hashes that result in 1,721 distinct outputs (64.65%)
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: RAM used: 41.58 MiB of 3.20 GiB budget. Usage: 1.27%
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: Shaders Compiled: 2,662
+[2024.11.12-19.35.00:429][382]LogShaderCompilers: Display: Jobs assigned 2,687, completed 2,662 (99.07%)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Average time worker was idle: 43.49 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Time job spent in pending queue: average 47.54 s, longest 99.57 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Job execution time: average 3.71 s, max 12.08 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Job life time (pending + execution): average 51.70 s, max 102.71
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 127.64 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Jobs were issued in 378 batches (only local compilation was used), average 7.11 jobs/batch
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Average processing rate: 20.86 jobs/sec
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Total thread time: 1,013.989 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Total thread preprocess time: 44.195 s
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Percentage time preprocessing: 4.36%
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Effective parallelization: 7.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 2.48 sec, max 4.54 sec, min 0.77 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    8 times, average 2.30 sec, max 2.83 sec, min 1.87 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   21 times, average 1.41 sec, max 1.88 sec, min 1.29 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   21 times, average 1.38 sec, max 1.80 sec, min 1.21 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled   10 times, average 1.32 sec, max 1.96 sec, min 0.55 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.67% of total time (compiled  150 times, average 0.72 sec, max 0.93 sec, min 0.59 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.73% of total time (compiled   54 times, average 1.08 sec, max 1.84 sec, min 0.25 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.43% of total time (compiled   96 times, average 0.57 sec, max 0.85 sec, min 0.37 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.88% of total time (compiled  128 times, average 0.39 sec, max 0.66 sec, min 0.27 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.28% of total time (compiled   36 times, average 1.21 sec, max 1.82 sec, min 0.50 sec)
+[2024.11.12-19.35.00:430][382]LogShaderCompilers: Display: ================================================
+[2024.11.12-19.35.03:347][633]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.06:336][980]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.07:120][ 55]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.35.07:129][ 55]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.35.35:432][984]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\yhgeng\Downloads\lahontan-cutthroat-trout/source/Golden Trout Animation v1 01.fbx)
+[2024.11.12-19.35.35:478][984]LogFbx: Loading FBX Scene from C:\Users\yhgeng\Downloads\lahontan-cutthroat-trout/source/Golden Trout Animation v1 01.fbx
+[2024.11.12-19.35.35:968][984]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.12-19.35.37:321][984]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.12-19.35.37:424][984]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2024.11.12-19.35.37:425][984]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - trout_body
+[2024.11.12-19.35.37:425][984]LogFbx: Warning: Recreating bind pose succeeded.
+[2024.11.12-19.35.37:435][984]LogMaterial: Display: Material /Game/Trouts/lahontan-cutthroat-trout/source/Body.Body needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.35.37:550][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.37:550][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.37:559][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_spec.goldentrout_spec (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.37:682][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.37:682][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.37:694][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_bump.goldentrout_bump (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.37:734][984]LogMaterial: Display: Material /Game/Trouts/lahontan-cutthroat-trout/source/Fin.Fin needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.35.37:865][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.37:865][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.37:876][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_spec_ncl1_2.goldentrout_spec_ncl1_2 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.37:978][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.37:978][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.37:989][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_bump_ncl1_1.goldentrout_bump_ncl1_1 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.38:010][984]LogMaterial: Display: Material /Game/Trouts/lahontan-cutthroat-trout/source/Eyes.Eyes needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.12-19.35.38:141][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.38:141][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.38:150][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_spec_ncl1_4.goldentrout_spec_ncl1_4 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.38:258][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.38:259][984]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.11.12-19.35.38:268][984]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/source/goldentrout_bump_ncl1_2.goldentrout_bump_ncl1_2 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.38:285][984]LogFbx: Triangulating skeletal mesh trout_body
+[2024.11.12-19.35.38:484][984]LogFbx: Bones digested - 180  Depth of hierarchy - 16
+[2024.11.12-19.35.38:605][984]LogSkeletalMesh: Display: /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2024.11.12-19.35.38:748][984]LogSkeletalMesh: Section 0: Material=0, 9970 triangles
+[2024.11.12-19.35.38:748][984]LogSkeletalMesh: Section 1: Material=1, 1176 triangles
+[2024.11.12-19.35.38:748][984]LogSkeletalMesh: Section 2: Material=2, 1680 triangles
+[2024.11.12-19.35.38:805][984]LogSkeletalMesh: Building Skeletal Mesh Golden_Trout_Animation_v1_01...
+[2024.11.12-19.35.38:829][984]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Golden_Trout_Animation_v1_01) ...
+[2024.11.12-19.35.38:885][984]LogSkeletalMesh: Display: /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2024.11.12-19.35.39:019][984]LogSkeletalMesh: Built Skeletal Mesh [0.22s] /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01
+[2024.11.12-19.35.39:149][984]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.39:149][984]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.12-19.35.39:155][984]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2024.11.12-19.35.39:177][984]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.12-19.35.39:178][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.12-19.35.39:246][984]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.39:247][984]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.12-19.35.39:254][984]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2024.11.12-19.35.39:254][984]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.11.12-19.35.39:254][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.12-19.35.39:289][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.12-19.35.39:325][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.12-19.35.39:343][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.12-19.35.39:360][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_spec' was renamed 'goldentrout_spec_ncl1_1' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_spec' was renamed 'goldentrout_spec_ncl1_2' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_bump' was renamed 'goldentrout_bump_ncl1_1' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_spec' was renamed 'goldentrout_spec_ncl1_3' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_spec' was renamed 'goldentrout_spec_ncl1_4' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_bump' was renamed 'goldentrout_bump_ncl1_2' 
+[2024.11.12-19.35.42:184][984]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'goldentrout_spec' was renamed 'goldentrout_spec_ncl1_5' 
+[2024.11.12-19.35.42:184][984]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.11.12-19.35.42:184][984]FBXImport: Warning: The following bones are missing from the bind pose:
+Jaw2_end  
+Mouth3_R_001_end  
+Mouth1_R_001_end  
+Mouth3_R_end  
+Mouth3_L_001_end  
+Mouth1_L_001_end  
+Mouth3_L_end  
+GillC2_R_end  
+GillC2_L_end  
+Nose_end  
+Eye_R_end  
+Eye_L_end  
+Mouth1_R_end  
+Mouth1_L_end  
+GillA3_R_end  
+GillB2_R_end  
+GillA3_L_end  
+GillB2_L_end  
+Neck2_end  
+PelvFinA4_R_end  
+PelvFinC4_R_end  
+PelvFinB2_R_end  
+Tail7_end  
+TailA7_end  
+TailB7_end  
+TailA5_end  
+TailB5_end  
+AdipFinC3_end  
+AdipFinB2_end  
+AnalFinD3_end  
+AnalFinB2_end  
+AnalFinC2_end  
+AdipFinA3_end  
+AnalFinA3_end  
+DorsFinC2_end  
+DorsFinB2_end  
+DorsFinE3_end  
+PelvFinA4_L_end  
+PelvFinC4_L_end  
+PelvFinB2_L_end  
+DorsFinA3_end  
+PecFinA4_R_end  
+PecFinC4_R_end  
+PecFinB2_R_end  
+PecFinA4_L_end  
+PecFinC4_L_end  
+PecFinB2_L_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2024.11.12-19.35.42:184][984]FBXImport: Warning: The bone size is too small to create Physics Asset 'Golden_Trout_Animation_v1_01_PhysicsAsset' from Skeletal Mesh 'Golden_Trout_Animation_v1_01'. You will have to create physics asset manually. 
+[2024.11.12-19.35.42:234][984]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.42:234][984]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesgoldentrout_bump.png]
+[2024.11.12-19.35.42:235][984]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.12-19.35.42:235][984]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.12-19.35.42:235][984]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.12-19.35.42:235][984]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.11.12-19.35.42:322][984]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.42:350][985]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:350][985]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.42:350][985]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesgoldentrout_diff.png]
+[2024.11.12-19.35.42:350][985]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.12-19.35.42:350][985]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/textures/goldentrout_bump.goldentrout_bump (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.42:366][985]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:375][985]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.12-19.35.42:471][985]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.42:529][986]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/textures/goldentrout_diff.goldentrout_diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.42:548][986]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:548][986]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.42:548][986]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesgoldentrout_diff_v2.png]
+[2024.11.12-19.35.42:548][986]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.12-19.35.42:580][986]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.42:712][986]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/textures/goldentrout_diff_v2.goldentrout_diff_v2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.42:715][986]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:715][986]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.42:715][986]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesgoldentrout_spec.png]
+[2024.11.12-19.35.42:715][986]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.12-19.35.42:738][987]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:757][987]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:774][987]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.12-19.35.42:819][987]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.42:997][987]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/textures/goldentrout_spec.goldentrout_spec (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.42:998][987]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.42:998][987]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.42:998][987]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/yhgeng...-trout/texturesgoldentrout_spec_v2.png]
+[2024.11.12-19.35.43:041][988]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.43:043][988]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.11.12-19.35.43:060][988]LogInterchangeEngine: [Pending] Importing
+[2024.11.12-19.35.43:311][988]LogTexture: Display: Building textures: /Game/Trouts/lahontan-cutthroat-trout/textures/goldentrout_spec_v2.goldentrout_spec_v2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.11.12-19.35.43:315][988]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.43:342][989]LogInterchangeEngine: [Success] Import Done
+[2024.11.12-19.35.44:158][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.45:610][205]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.35.49:795][682]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.35.49:801][682]LogSlate: Window 'Message Log' being destroyed
+[2024.11.12-19.36.03:721][290]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01
+[2024.11.12-19.36.03:721][290]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01
+[2024.11.12-19.36.03:721][290]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_5
+[2024.11.12-19.36.03:721][290]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_5
+[2024.11.12-19.36.04:571][388]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01
+[2024.11.12-19.36.04:571][388]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01
+[2024.11.12-19.36.04:571][388]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_6
+[2024.11.12-19.36.04:572][388]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/lahontan-cutthroat-trout/source/Golden_Trout_Animation_v1_01.Golden_Trout_Animation_v1_01 as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_6
+[2024.11.12-19.36.54:139][995]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked
+[2024.11.12-19.36.54:139][995]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked
+[2024.11.12-19.36.54:139][995]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_7
+[2024.11.12-19.36.54:140][995]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_7
+[2024.11.12-19.36.55:609][167]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked
+[2024.11.12-19.36.55:609][167]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked
+[2024.11.12-19.36.55:609][167]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_8
+[2024.11.12-19.36.55:610][167]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Trouts/rainbow-trout/source/Rainbow_Trout_v2_01_baked.Rainbow_Trout_v2_01_baked as actor: SkeletalMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.SkeletalMeshActor_8
+[2024.11.12-19.37.08:206][656]LogSlate: Window 'Content Browser' being destroyed
+[2024.11.12-19.37.08:212][656]LogSlate: Window 'Content Browser' being destroyed
+[2024.11.12-19.37.34:494][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.12-19.37.34:561][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.12-19.37.45:761][633]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.11.12-19.37.45:807][633]LogSavePackage: Moving 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMap77C3CE54462E6B5FBED7E2A0739AB0D7.tmp' to 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.11.12-19.37.45:980][633]LogFileHelpers: Saving map 'VRTemplateMap' took 11.434
+[2024.11.12-19.37.45:995][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.5 sec (total: 36.3 sec)
+[2024.11.12-19.37.45:998][633]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.11.12-19.37.45:998][633]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.11.12-19.37.52:489][403]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.11.12-19.37.52:554][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.12-19.37.52:554][403]PIE: New page: PIE session: VRTemplateMap (Nov 12, 2024, 9:37:52 AM)
+[2024.11.12-19.37.52:554][403]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.11.12-19.37.52:684][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128579s)
+[2024.11.12-19.37.52:684][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.128624s)
+[2024.11.12-19.37.52:684][403]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.12-19.37.52:684][403]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.12-19.37.52:684][403]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.11.12-19.37.52:684][403]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2024.11.12-19.37.52:698][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.12-19.37.52:699][403]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.12-19.37.52:699][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.12-19.37.52:699][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.12-19.37.52:700][403]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2024.11.12-19.37.52:700][403]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2024.11.12-19.37.52:700][403]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.12-19.37.52:701][403]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.12-19.37.52:726][403]LogAudioMixer: Display: Using Audio Hardware Device DELL U3425WE (NVIDIA High Definition Audio)
+[2024.11.12-19.37.52:726][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.12-19.37.52:726][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.12-19.37.52:726][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.12-19.37.52:726][403]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.12-19.37.52:726][403]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.12-19.37.52:727][403]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.12-19.37.52:727][403]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.12-19.37.52:727][403]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.12-19.37.52:727][403]LogAudio: Display: Audio Device (ID: 8) registered with world 'VRTemplateMap'.
+[2024.11.12-19.37.52:727][403]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.12-19.37.52:737][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.12-19.37.52:846][403]LogLoad: Game class is 'VRGameMode_C'
+[2024.11.12-19.37.52:855][403]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.11.12-14.37.52
+[2024.11.12-19.37.52:855][403]LogWorld: Bringing up level for play took: 0.008224
+[2024.11.12-19.37.52:857][403]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.12-19.37.52:859][403]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.11.12-19.37.52:861][403]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.11.12-19.37.52:861][403]vr.PixelDensity = "1"
+[2024.11.12-19.37.52:866][403]PIE: Server logged in
+[2024.11.12-19.37.52:868][403]PIE: Play in editor total start time 0.314 seconds.
+[2024.11.12-19.37.52:878][403]LogViewport: Scene viewport resized to 4320x2224, mode Windowed.
+[2024.11.12-19.37.52:895][403]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.11.12-19.37.52:907][403]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2024.11.12-19.37.52:917][404]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2024.11.12-19.38.41:808][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.12-19.38.41:808][641]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.11.12-19.38.41:846][641]LogSlate: Window 'GreatLakesExplore2 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.101.0)' being destroyed
+[2024.11.12-19.38.41:849][641]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.12-19.38.41:850][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.12-19.38.41:859][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.12-19.38.41:864][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.12-19.38.41:880][641]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.12-19.38.41:880][641]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2024.11.12-19.38.41:880][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.12-19.38.41:882][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.12-19.38.41:900][641]LogSlate: Slate User Unregistered.  User Index 8
+[2024.11.12-19.38.41:900][641]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.11.12-19.38.41:901][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.12-19.38.42:058][642]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.12-19.39.12:207][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.12-19.39.12:253][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.11.12-19.39.24:173][289]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.11.12-19.39.24:203][289]LogSavePackage: Moving 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMapDE19163043878C3E8D2FEBA4A76E4546.tmp' to 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.11.12-19.39.24:370][289]LogFileHelpers: Saving map 'VRTemplateMap' took 12.130
+[2024.11.12-19.39.24:373][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 12.1 sec (total: 48.5 sec)
+[2024.11.12-19.39.24:377][289]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.11.12-19.39.24:377][289]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
