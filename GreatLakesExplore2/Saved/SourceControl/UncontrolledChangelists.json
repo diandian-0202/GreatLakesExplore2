@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Blueprints/Projectile.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Blueprints/Pistol.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/Assets/bald-eagle-med-poly/textures/base_eagle.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/Assets/sammy/textures/AdobeColor-color_theme_salmon_sockeye.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/sammy/textures/AdobeColor-color_theme_salmon_sockeye.uasset",
 				"C:/Users/hodder/Downloads/Unreal Projects/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap",
 				"C:/Users/hodder/Downloads/Unreal Projects/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
 				"C:/Users/hodder/Downloads/Unreal Projects/GreatLakesExplore2/GreatLakesExplore2/Content/stylized_lake/materials/water_material/water_Inst.uasset",
