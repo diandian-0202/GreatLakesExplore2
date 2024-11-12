@@ -3151,3 +3151,15 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.11.12-23.05.18:731][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.13 sec (total: 18.7 sec)
 [2024.11.12-23.05.18:734][881]AssetCheck: New page: Asset Save: Pistol
 [2024.11.12-23.05.18:734][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/Pistol.Pistol
+[2024.11.12-23.05.47:594][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.12-23.06.01:337][193]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2
+[2024.11.12-23.06.01:375][193]LogSavePackage: Moving 'N:/windat.v2/Documents/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMap_Auto2E53618E54192AD2A3BC77CAF354411A4.tmp' to 'N:/windat.v2/Documents/GreatLakesExplore2/GreatLakesExplore2/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2.umap'
+[2024.11.12-23.06.01:471][193]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 13.892
+[2024.11.12-23.06.01:471][193]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 13.892
+[2024.11.12-23.06.15:300][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.12-23.06.15:358][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/Pistol" FILE="N:/windat.v2/Documents/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Blueprints/Pistol.uasset" SILENT=true
+[2024.11.12-23.06.16:296][274]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/Pistol
+[2024.11.12-23.06.16:327][274]LogSavePackage: Moving 'N:/windat.v2/Documents/GreatLakesExplore2/GreatLakesExplore2/Saved/PistolE8F423F1457F3B1112A3BE9AB5929D17.tmp' to 'N:/windat.v2/Documents/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Blueprints/Pistol.uasset'
+[2024.11.12-23.06.16:401][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.10 sec (total: 19.8 sec)
+[2024.11.12-23.06.16:404][274]AssetCheck: New page: Asset Save: Pistol
+[2024.11.12-23.06.16:405][274]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/Pistol.Pistol
