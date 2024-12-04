@@ -21244,6 +21244,7 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.12.04-00.14.50:465][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
 [2024.12.04-00.14.50:472][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
 [2024.12.04-00.14.50:536][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+<<<<<<< Updated upstream
 [2024.12.04-00.15.08:815][295]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
 [2024.12.04-00.15.08:850][295]LogSavePackage: Moving 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMapC239DB5B494DF5385811868FABC61798.tmp' to 'N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap'
 [2024.12.04-00.15.09:029][295]LogFileHelpers: No new changes to save!
@@ -22772,3 +22773,5 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.12.04-00.49.21:552][424]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.12.04-00.49.21:647][424]LogExit: Exiting.
 [2024.12.04-00.49.21:877][424]Log file closed, 12/03/24 19:49:21
+=======
+>>>>>>> Stashed changes
