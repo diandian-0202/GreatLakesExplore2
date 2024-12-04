@@ -6,7 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap",
-				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/FoodChainBoard/FoodChainBoardState.uasset"
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/FoodChainBoard/FoodChainBoardState.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/affordances/Aff_teleport_hardcoded_location.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/AnimalDescriptionComponents/interact_show_turtle_widget_C.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/WidgetActors/XinfoWidgetActor.uasset",
+				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/FoodChainBoard_Blueprint.uasset"
 			]
 		}
 	]
