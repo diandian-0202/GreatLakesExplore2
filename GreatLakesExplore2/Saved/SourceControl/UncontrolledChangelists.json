@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/hodder/Downloads/EEE/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
+				"C:/Users/hodder/Downloads/EEE/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/hodder/Downloads/EEE/GreatLakesExplore2/GreatLakesExplore2/Content/Sounds/RainSound.uasset",
+				"C:/Users/hodder/Downloads/EEE/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Blueprints/WidgetMenu.uasset",
 				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap",
 				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/FoodChainBoard/FoodChainBoardState.uasset",
 				"N:/windat.v2/Documents/GitHub/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/FoodChainBoard_Blueprint.uasset",
