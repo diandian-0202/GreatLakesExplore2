@@ -12657,3 +12657,83 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.06-21.03.02:719][203]LogSlate: Window 'Message Log' being destroyed
 [2024.12.06-21.03.02:725][203]LogSlate: Window 'Message Log' being destroyed
 [2024.12.06-21.03.05:783][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.12.06-21.05.14:284][645]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.12.06-21.05.14:291][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.06-21.05.14:292][645]PIE: New page: PIE session: VRTemplateMap (Dec 6, 2024, 11:05:14 AM)
+[2024.12.06-21.05.14:314][645]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.12.06-21.05.14:360][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046679s)
+[2024.12.06-21.05.14:360][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.046731s)
+[2024.12.06-21.05.14:360][645]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-21.05.14:360][645]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-21.05.14:361][645]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.12.06-21.05.14:361][645]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2024.12.06-21.05.14:379][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.12.06-21.05.14:380][645]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.12.06-21.05.14:380][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.06-21.05.14:380][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.06-21.05.14:380][645]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2024.12.06-21.05.14:380][645]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2024.12.06-21.05.14:380][645]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.06-21.05.14:382][645]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.06-21.05.14:411][645]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.12.06-21.05.14:411][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.06-21.05.14:411][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.06-21.05.14:411][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.06-21.05.14:412][645]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.12.06-21.05.14:412][645]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.12.06-21.05.14:413][645]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.12.06-21.05.14:413][645]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.12.06-21.05.14:413][645]LogInit: FAudioDevice initialized with ID 13.
+[2024.12.06-21.05.14:413][645]LogAudio: Display: Audio Device (ID: 13) registered with world 'VRTemplateMap'.
+[2024.12.06-21.05.14:413][645]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.12.06-21.05.14:423][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-21.05.14:530][645]LogLoad: Game class is 'VRGameMode_C'
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_1.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_4.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:547][645]PIE: Warning: Trying to simulate physics on ''/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.ZebraMussel_Blueprint_C_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2024.12.06-21.05.14:553][645]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.12.06-16.05.14
+[2024.12.06-21.05.14:556][645]LogWorld: Bringing up level for play took: 0.025801
+[2024.12.06-21.05.14:558][645]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.12.06-21.05.14:559][645]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.12.06-21.05.14:560][645]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.12.06-21.05.15:323][645]vr.PixelDensity = "1"
+[2024.12.06-21.05.15:325][645]PIE: Server logged in
+[2024.12.06-21.05.15:326][645]PIE: Play in editor total start time 1.034 seconds.
+[2024.12.06-21.05.15:364][645]LogViewport: Scene viewport resized to 4320x2224, mode Windowed.
+[2024.12.06-21.05.15:374][645]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.12.06-21.05.15:382][645]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2024.12.06-21.05.15:433][646]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2024.12.06-21.05.23:134][920]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.05.31:515][221]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.05.32:378][252]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.05.33:269][284]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.05.34:048][312]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.05.43:961][668]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-21.06.29:153][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-21.06.29:153][247]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.12.06-21.06.29:192][247]LogSlate: Window 'GreatLakesExplore2 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.104.0)' being destroyed
+[2024.12.06-21.06.29:194][247]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.06-21.06.29:197][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-21.06.29:200][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.06-21.06.29:206][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-21.06.29:228][247]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.12.06-21.06.29:228][247]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2024.12.06-21.06.29:228][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.12.06-21.06.29:229][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.12.06-21.06.29:244][247]LogSlate: Slate User Unregistered.  User Index 8
+[2024.12.06-21.06.29:244][247]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.12.06-21.06.29:246][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.12.06-21.06.29:411][248]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.12.06-21.06.30:544][363]LogSlate: Window 'Message Log' being destroyed
+[2024.12.06-21.06.30:550][363]LogSlate: Window 'Message Log' being destroyed
+[2024.12.06-21.06.46:643][273]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.12.06-21.06.54:407][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
