@@ -11908,3 +11908,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.06-20.48.54:555][450]AssetCheck: New page: Asset Save: multiple assets
 [2024.12.06-20.48.54:555][450]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2024.12.06-20.48.54:555][450]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData
+[2024.12.06-20.49.59:668][349]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2024.12.06-20.50.19:304][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.12.06-20.50.19:307][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-20.50.19:363][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.12.06-20.50.19:748][611]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.12.06-20.50.19:749][611]LogSavePackage: Moving '../../../../../../Users/yhgeng/Downloads/126/GreatLakesExplore2/GreatLakesExplore2/Saved/VRTemplateMapF4C4764C40F4A6679F73C691D9EF13AB.tmp' to '../../../../../../Users/yhgeng/Downloads/126/GreatLakesExplore2/GreatLakesExplore2/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.12.06-20.50.19:760][611]LogFileHelpers: No new changes to save!
+[2024.12.06-20.50.19:760][611]LogFileHelpers: Saving map 'VRTemplateMap' took 0.406
+[2024.12.06-20.50.19:778][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 471 ms (total: 12.9 sec)
+[2024.12.06-20.50.19:782][611]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.12.06-20.50.19:782][611]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
